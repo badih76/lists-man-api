@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            margin: auto;
+            padding: 30px;
+            color: blue;
+            text-align: center;
+        }
+
+        .api-schema {
+            width: 100%;
+            padding: 10px;
+            background-color: aquamarine;
+            border: 2px solid blue;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        .schema-row {
+            width: 100%;
+            padding: 5px;
+            background-color: white;
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            Welcome to Lists Manager 1.0
+    </div>
+    <div class="api-schema">
+        <div class="schema-row">
+            GET https://listman-api.herokuapp.com/lists/countries
+        </div>
+        <div class="schema-row">
+            POST https://listman-api.herokuapp.com/lists/countries
+        </div>
+    </div>
+</body>
+</html>

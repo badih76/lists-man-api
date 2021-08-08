@@ -11,6 +11,9 @@ try {
     app.use('/math', math);
     app.use('/lists', lists);
 
+    app.get("/", (req, res) => {
+        res.sendFile(__dirname + "/index.html");
+    })
 }
 catch(e) {
     console.log(e);
